@@ -1,0 +1,33 @@
+{
+  "ae_threshold": 0.17816274471204968,
+  "lstm_threshold": 0.27169372388742274,
+  "feature_columns": [
+    "logon_count",
+    "unique_pc_count",
+    "after_hours_logon",
+    "weekend_logon",
+    "first_logon_hour",
+    "last_logon_hour",
+    "logon_span_hours",
+    "usb_connect_count",
+    "usb_after_hours",
+    "file_action_count",
+    "unique_file_count",
+    "file_to_removable",
+    "http_count",
+    "unique_domains",
+    "role_encoded",
+    "is_admin",
+    "dept_encoded"
+  ],
+  "sequence_length": 5,
+  "risk_weights": {
+    "ae_max": 0.35,
+    "lstm_max": 0.35,
+    "ae_avg": 0.15,
+    "context": 0.15
+  },
+  "trained_on": "2026-03-08 19:23",
+  "num_users_trained": 75,
+  "input_dim": 17
+}
